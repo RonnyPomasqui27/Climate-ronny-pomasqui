@@ -1,0 +1,117 @@
+.App{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  width: 50%;
+  max-width: 310px;
+  min-width: 270px;
+  height: 90vh;
+  background-color: rgba(255, 255, 255, 0.6);;
+  padding: 10px 15px;
+  border-radius: 15px;
+}
+
+@media (max-width: 375px) {
+  .container{
+    margin-top: 5%;
+  }
+}
+
+.container-climate{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.climate-icon {
+  width: 90%;
+  color: #31314c;
+  font-weight: 500;
+  height: 280px;
+  border: 1px solid #31314c;
+  box-shadow: -2px 2px 10px 0px #31314c;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.climate-icon h3{
+ font-size: 1.3rem;
+ font-weight: 600;
+ text-transform: uppercase;
+ margin: 5px 0px 0px 0px;
+}
+
+.climate-info{
+  width: 90%;
+  color: #31314c;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: scale(1);
+  transition: all 0.5s;
+}
+
+.climate-info p{
+  transform: scale(1);
+  transition: all 0.6s;
+}
+
+.climate-info p:hover{
+  transform: scale(1.1);
+  transition: all 0.6s;
+}
+
+.fa-solid{
+  font-size: 1.5rem;
+  color: white;
+  padding: 5px 15px;
+  background-color: #31314c;
+  transform: scale(1);
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.change a{
+  text-decoration: none;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(1);
+  transition: all 1s;
+}
+
+.change a:hover{
+  transform: scale(1.2);
+  transition: all 1s;
+}
+
+
+
+/* color para amanecer 
+  color: #DD5353;
+  color para tarde 
+  color: #244a6d;
+  color para anochecer
+  color: #31314c;
+*/
+
+
+/* NOCHE:
+  https://i.pinimg.com/originals/b2/e2/f6/b2e2f6fd22ead2980c7d530b56394fdf.png
+  TARDE: 
+  https://img.freepik.com/vector-premium/concepto-paisaje-montana-manana-diseno-dibujos-animados-plana-amanecer-picos-montanas-lago-bosque-plantas-laderas-junto-al-lago-vista-panoramica-vida-silvestre-fondo-horizontal-ilustracion-vectorial_198565-805.jpg
+  DIA: 
+  https://img.freepik.com/vector-gratis/puesta-sol-o-amanecer-oceano-paisaje-naturaleza_33099-2244.jpg?size=626&ext=jpg
+*/
